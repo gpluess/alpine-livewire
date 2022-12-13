@@ -18,6 +18,7 @@
                >
                     <a
                             x-menu:item
+                            wire:key="item-1"
                             href="#" x-on:click="$wire.increment()"
                             :class="{
                 'bg-cyan-500/10 text-gray-900': $menuItem.isActive,
@@ -30,6 +31,7 @@
                     </a>
                     <a
                             x-menu:item
+                            wire:key="item-2"
                             href="#" @click="$wire.increment()"
                             :class="{
                 'bg-cyan-500/10 text-gray-900': $menuItem.isActive,
@@ -42,6 +44,7 @@
                     </a>
                     <a
                             x-menu:item
+                            wire:key="item-3"
                             href="#" wire:click="increment"
                             :class="{
                 'bg-cyan-500/10 text-gray-900': $menuItem.isActive,
@@ -54,6 +57,7 @@
                     </a>
                     <a
                             x-menu:item
+                            wire:key="item-4"
                             href="#"
                             :class="{
                 'bg-cyan-500/10 text-gray-900': $menuItem.isActive,
